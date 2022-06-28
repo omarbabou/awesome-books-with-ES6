@@ -2,7 +2,6 @@ const booksContent = document.querySelector('.displayBook');
 const btn = document.getElementById('button');
 const title = document.getElementById('title');
 const author = document.getElementById('author');
-// eslint-disable-next-line no-undef
 const bookList = new Library();
 const newBooks = bookList.bookArray;
 

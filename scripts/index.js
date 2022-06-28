@@ -1,5 +1,6 @@
 import Library from '../modules/library.js';
 import displayBook from '../modules/displayBook.js';
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
 
 const booksContent = document.querySelector('.displayBook');
 const btn = document.getElementById('button');
@@ -35,3 +36,7 @@ booksContent.addEventListener('click', (e) => {
     element.remove();
   }
 });
+
+const date = DateTime.now();
+const dateFormat = date.toLocaleString(DateTime.DATETIME_MED);
+document.querySelector('.date').textContent = dateFormat;

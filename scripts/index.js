@@ -1,23 +1,12 @@
+import Library from '../modules/library.js';
+import displayBook from '../modules/displayBook.js';
+
 const booksContent = document.querySelector('.displayBook');
 const btn = document.getElementById('button');
 const title = document.getElementById('title');
 const author = document.getElementById('author');
 const bookList = new Library();
 const newBooks = bookList.bookArray;
-
-function displayBook(book) {
-  const newAddDiv = document.createElement('div');
-  const booksContent = document.querySelector('.displayBook');
-  newAddDiv.classList.add('bookItem');
-  newAddDiv.id = book.id;
-  newAddDiv.innerHTML = `<ul class="book-content">   
-                                <li class = "title">${book.title}</li>
-                                <li>${book.author}</li>
-                            </ul>
-                            <button id="remove">Remove</button>
-    `;
-  booksContent.appendChild(newAddDiv);
-}
 
 newBooks.forEach((book) => {
   displayBook(book);

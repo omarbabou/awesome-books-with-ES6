@@ -1,0 +1,20 @@
+{
+  "name": "awesome-books-with-es6",
+  "version": "1.0.0",
+  "description": "Recreating my entire awesome books project using ES6 modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarbabou/Awesome-books-with-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omarbabou/Awesome-books-with-ES6/issues"
+  },
+  "homepage": "https://github.com/omarbabou/Awesome-books-with-ES6#readme"
+}

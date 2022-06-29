@@ -1,6 +1,6 @@
-import Library from '../modules/library.js';
-import displayBook from '../modules/displayBook.js';
-import { DateTime } from '../node_modules/luxon/src/luxon.js';
+import Library from './modules/library.js';
+import displayBook from './modules/displayBook.js';
+import { DateTime } from './node_modules/luxon/src/luxon.js';
 
 const booksContent = document.querySelector('.displayBook');
 const btn = document.getElementById('button');
